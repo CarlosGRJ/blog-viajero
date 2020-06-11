@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juanito Travel</title>
-    <link rel="icon" href="../img/icono.jpg" />
+    <link rel="icon" href="img/icono.jpg" />
 
     <!--==== 
         PLUGINS DE CSS 
@@ -20,9 +20,9 @@
 
     <!-- JdSlider -->
 
-    <link rel="stylesheet" href="../css/plugins/jquery.jdSlider.css" />
+    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css" />
 
-    <link rel="stylesheet" href="../css/style.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
 
     <!--==============================
         PLUGINS DE JS
@@ -38,22 +38,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <!-- JdSlider -->
-    <script src="../js/plugins/jquery.jdSlider-latest.js"></script>
+    <script src="js/plugins/jquery.jdSlider-latest.js"></script>
 
     <!-- PAGINATION -->
     <!-- https://josecebe.github.io/twbs-pagination/ -->
-    <script src="../js/plugins//pagination.min.js"></script>
+    <script src="js/plugins//pagination.min.js"></script>
 
     <!-- SCROLLORAMA -->
     <!-- https://johnpolacek.github.io/superscrollorama/ -->
-    <script src="../js/plugins/jquery.superscrollorama.js"></script>
-    <script src="../js/plugins/TweenMax.min.js"></script>
+    <script src="js/plugins/jquery.superscrollorama.js"></script>
+    <script src="js/plugins/TweenMax.min.js"></script>
 
     <!-- SCROLLUP -->
     <!-- https://markgoodyear.com/labs/scrollup/ -->
     <!-- https://easings.net/ -->
-    <script src="../js/plugins/scrollUP.js"></script>
-    <script src="../js/plugins/jquery.easing.js"></script>
+    <script src="js/plugins/scrollUP.js"></script>
+    <script src="js/plugins/jquery.easing.js"></script>
 
 </head>
 
@@ -71,9 +71,9 @@
             <div id="rellenoCarga"></div>
 
         </div>
-        
+
         <div id="estadoCarga"></div>
-        
+
     </div>
 
     <!--=========================
@@ -88,7 +88,7 @@
                 <div class="col-10 col-sm-11 col-md-8 col-lg-7 pt-1 pt-lg-2 p-xl-0">
 
                     <a href="index.html">
-                        <img src="../img/logotipo-negativo.png" alt="logo de traveler" class="img-fluid logotipo">
+                        <img src="img/logotipo-negativo.png" alt="logo de traveler" class="img-fluid logotipo">
                     </a>
 
                 </div>
@@ -99,7 +99,7 @@
                     <ul class="d-flex justify-content-end pt-2 mt-1">
 
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank">
+                            <a href="https://www.facebook.com" target="_blank">
                                 <i class="fab fa-facebook-f lead rounded-circle text-white mr-1"></i>
                             </a>
                         </li>
@@ -150,7 +150,7 @@
                 <!-- ENTRADA DEL BUSCADOR -->
 
                 <div id="buscador" class="collapse col-12">
-                    
+
                     <div class="input-group float-right w-50 pl-xl-5 pb-3">
 
                         <input type="text" class="form-control" placeholder="Buscar">
@@ -180,7 +180,7 @@
         <ul class="d-flex justify-content-center p-0">
 
             <li>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com" target="_blank">
                     <i class="fab fa-facebook-f lead rounded-circle text-white mr-3 mr-sm-4"></i>
                 </a>
             </li>
@@ -234,7 +234,7 @@
 
                     </div>
 
-                    <img src="../img/bannerGrande01.jpg" alt="Cielo" class="img-fluid" />
+                    <img src="img/bannerGrande01.jpg" alt="Cielo" class="img-fluid" />
                 </li>
 
             </ul>
@@ -340,11 +340,23 @@
 
             <!-- BREADCRUMB -->
 
-            <ul class="breadcrumb bg-white p-0 mb-2 mb-md-4">
+            <a href="categorias.html">
+
+                <button class="d-block d-sm-none d-md-none btn btn-info btn-sm mb-2">
+
+                    REGRESAR
+
+                </button>
+
+            </a>
+
+            <ul class="breadcrumb bg-white p-0 mb-2 mb-md-4 breadArticulo">
 
                 <li class="breadcrumb-item inicio"><a href="index.html">Inicio</a></li>
 
-                <li class="breadcrumb-item active">Mi viaje por Suramérica</li>
+                <li class="breadcrumb-item"><a href="categorias.html">Mi viaje por Suramérica</a></li>
+
+                <li class="breadcrumb-item active">Type something here</li>
 
             </ul>
 
@@ -354,225 +366,279 @@
 
                 <div class="col-12 col-md-8 col-lg-9 p-0 pr-lg-5">
 
-                    <!-- ARTPICULO 01 -->
+                    <!-- ARTÍCULO 1 -->
 
-                    <div class="row">
+                    <div class="container">
 
-                        <div class="col-12 col-lg-5">
+                        <div class="d-flex">
 
-                            <a href="articulos.html">
-                                
-                                <h5 class="d-block d-lg-none py-3">Type something here</h5>
-                            
-                            </a>
+                            <div class="fechaArticulo">30.09.2018</div>
 
-                            <a href="articulos.html">
-                                
-                                <img src="../img/articulo06.png" alt="lorem" class="img-fluid" width="100%">
-                            
-                            </a>
+                            <h3 class="tituloArticulo text-right text-muted pl-3 pt-lg-2">Type something here lorem</h3>
 
                         </div>
 
-                        <div class="col-12 col-lg-7 introArticulo">
+                        <img src="img/articulo.png" alt="Lorem ipsum dolor sit amet" class="img-fluid my-lg-3">
 
-                            <a href="articulos.html">
-                                
-                                <h4 class="d-none d-lg-block">Type something here</h4>
-                            
-                            </a>
+                        <p class="textoArticulo my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae.</p>
 
-                            <p class="my-2 my-lg-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
-                                soluta officiis.
-                                Minima, blanditiis. At natus dolores hic amet repellendus facilis</p>
+                        <!-- PUBLICIDAD -->
 
-                            <a href="articulos.html" class="float-right">Leer más</a>
+                        <img src="img/ad04.png" class="img-fluid my-3" width="100%">
 
-                            <div class="fecha">30.09.2018</div>
+                        <p class="textoArticulo my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae.</p>
 
-                        </div>
+                        <p class="textoArticulo my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eos ratione aliquam iste
+                            nisi dolorum quidem doloribus eligendi dicta expedita! Tempore nemo provident labore
+                            voluptas rem incidunt, esse exercitationem! Beatae.</p>
 
-                    </div>
+                            <!-- COMPARTIR EN REDES -->
 
-                    <hr class="mb-4 mb-lg-5" style="border: 1px solid #79FF39;">
+                            <div class="float-right my-3 btnCompartir">
 
-                    <!-- ARTPICULO 02 -->
+                                <div class="btn-group">
 
-                    <div class="row">
+                                    <button type="button" class="btn border-0 text-white" style="background: #1475E0">
+                                    
+                                        <span class="fab fa-facebook pr-1"></span>
 
-                        <div class="col-12 col-lg-5">
+                                        Facebook
 
-                            <a href="articulos.html">
-                                
-                                <h5 class="d-block d-lg-none py-3">Type something here</h5>
-                            
-                            </a>
+                                        <span class="lead pl-1">3</span>
 
-                            <a href="articulos.html">
-                                
-                                <img src="../img/articulo07.png" alt="lorem" class="img-fluid" width="100%">
-                            
-                            </a>
+                                    </button>
 
-                        </div>
+                                </div>
 
-                        <div class="col-12 col-lg-7 introArticulo">
+                                <div class="btn-group">
 
-                            <a href="articulos.html">
-                                
-                                <h4 class="d-none d-lg-block">Type something here</h4>
-                            
-                            </a>
+                                    <button type="button" class="btn border-0 text-white" style="background: #00A6FF">
+                                    
+                                        <span class="fab fa-twitter pr-1"></span>
 
-                            <p class="my-2 my-lg-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
-                                soluta officiis.
-                                Minima, blanditiis. At natus dolores hic amet repellendus facilis</p>
+                                        Twitter
+                                        
+                                        <span class="lead pl-1">3</span>
 
-                            <a href="articulos.html" class="float-right">Leer más</a>
+                                    </button>
 
-                            <div class="fecha">30.09.2018</div>
+                                </div>
 
-                        </div>
+                                <div class="btn-group">
 
-                    </div>
+                                    <button type="button" class="btn border-0 text-white" style="background: #DD4D41">
+                                    
+                                        <span class="fab fa-google-plus pr-1"></span>
 
-                    <hr class="mb-4 mb-lg-5" style="border: 1px solid #79FF39;">
+                                        Google
+                                        
+                                        <span class="lead pl-1">3</span>
 
-                    <!-- PUBLICIDAD -->
+                                    </button>
 
-                    <div class="d-block d-lg-none">
-                        <img src="../img/ad02.jpg" class="img-fluid" width="100%">
-                    </div>
+                                </div>
 
-                    <!-- ARTPICULO 03 -->
+                            </div>
 
-                    <div class="row">
+                            <!-- AVANZAR - RETROCEDER  -->
 
-                        <div class="col-12 col-lg-5">
+                            <div class="clearfix"></div>
 
-                            <a href="articulos.html">
-                                
-                                <h5 class="d-block d-lg-none py-3">Type something here</h5>
-                            
-                            </a>
+                            <div class="d-md-flex justify-content-between my-3 d-none">
 
-                            <a href="articulos.html">
-                                
-                                <img src="../img/articulo08.png" alt="lorem" class="img-fluid" width="100%">
-                            
-                            </a>
+                                <a href="articulos.html">Leer artículo anterior</a>
 
-                        </div>
+                                <a href="articulos.html">Leer artículo siguiente</a>
 
-                        <div class="col-12 col-lg-7 introArticulo">
+                            </div>
 
-                            <a href="articulos.html">
-                                
-                                <h4 class="d-none d-lg-block">Type something here</h4>
-                            
-                            </a>
+                            <div class="clearfix"></div>
 
-                            <p class="my-2 my-lg-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
-                                soluta officiis.
-                                Minima, blanditiis. At natus dolores hic amet repellendus facilis</p>
+                            <!-- DESLIZADOR DE ARTÍCULOS -->
 
-                            <a href="articulos.html" class="float-right">Leer más</a>
+                            <section class="jd-slider deslizadorArticulos my-4">
 
-                            <div class="fecha">30.09.2018</div>
+                                <div class="slide-inner">
 
-                        </div>
+                                    <ul class="slide-area">
 
-                    </div>
+                                        <li class="px-3">
 
-                    <hr class="mb-4 mb-lg-5" style="border: 1px solid #79FF39;">
+                                            <a href="articulos.html" class="text-secondary">
+                                                
+                                                <img src="img/articulo01.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
-                    <!-- ARTPICULO 04 -->
+                                                <h6 class="py-2">Type something here</h6>
 
-                    <div class="row">
+                                            </a>
 
-                        <div class="col-12 col-lg-5">
+                                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Illum ullam error aliquid...</p>
 
-                            <a href="articulos.html">
-                                
-                                <h5 class="d-block d-lg-none py-3">Type something here</h5>
-                            
-                            </a>
+                                        </li>
 
-                            <a href="articulos.html">
-                                
-                                <img src="../img/articulo09.png" alt="lorem" class="img-fluid" width="100%">
-                            
-                            </a>
+                                        <li class="px-3">
 
-                        </div>
+                                            <a href="articulos.html" class="text-secondary">
+                                                
+                                                <img src="img/articulo02.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
-                        <div class="col-12 col-lg-7 introArticulo">
+                                                <h6 class="py-2">Type something here</h6>
 
-                            <a href="articulos.html">
-                                
-                                <h4 class="d-none d-lg-block">Type something here</h4>
-                            
-                            </a>
+                                            </a>
 
-                            <p class="my-2 my-lg-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
-                                soluta officiis.
-                                Minima, blanditiis. At natus dolores hic amet repellendus facilis</p>
+                                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Illum ullam error aliquid...</p>
 
-                            <a href="articulos.html" class="float-right">Leer más</a>
+                                        </li>
 
-                            <div class="fecha">30.09.2018</div>
+                                        <li class="px-3">
 
-                        </div>
+                                            <a href="articulos.html" class="text-secondary">
+                                                
+                                                <img src="img/articulo03.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
-                    </div>
+                                                <h6 class="py-2">Type something here</h6>
 
-                    <hr class="mb-4 mb-lg-5" style="border: 1px solid #79FF39;">
+                                            </a>
 
-                    <!-- ARTPICULO 05 -->
+                                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Illum ullam error aliquid...</p>
 
-                    <div class="row">
+                                        </li>
 
-                        <div class="col-12 col-lg-5">
+                                        <li class="px-3">
 
-                            <a href="articulos.html">
-                                
-                                <h5 class="d-block d-lg-none py-3">Type something here</h5>
-                            
-                            </a>
+                                            <a href="articulos.html" class="text-secondary">
+                                                
+                                                <img src="img/articulo04.png" alt="Lorem ipsum dolor sit amet" class="img-fluid">
 
-                            <a href="articulos.html">
-                                
-                                <img src="../img/articulo10.png" alt="lorem" class="img-fluid" width="100%">
-                            
-                            </a>
+                                                <h6 class="py-2">Type something here</h6>
 
-                        </div>
+                                            </a>
 
-                        <div class="col-12 col-lg-7 introArticulo">
+                                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Illum ullam error aliquid...</p>
 
-                            <a href="articulos.html">
-                                
-                                <h4 class="d-none d-lg-block">Type something here</h4>
-                            
-                            </a>
+                                        </li>
 
-                            <p class="my-2 my-lg-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
-                                soluta officiis.
-                                Minima, blanditiis. At natus dolores hic amet repellendus facilis</p>
+                                    </ul>
 
-                            <a href="articulos.html" class="float-right">Leer más</a>
+                                    <a class="prev" href="#">
 
-                            <div class="fecha">30.09.2018</div>
+                                        <i class="fas fa-angle-left text-muted"></i>
 
-                        </div>
+                                    </a>
 
-                    </div>
+                                    <a class="next" href="#">
 
-                    <hr class="mb-4 mb-lg-5" style="border: 1px solid #79FF39;">
+                                        <i class="fas fa-angle-right text-muted"></i>
 
-                    <div class="container d-none d-md-block">
+                                    </a>
 
-                        <ul class="pagination justify-content-center"></ul>
+                                </div>
+
+                                <div class="controller">
+
+                                    <div class="indicate-area"></div>
+
+                                </div>
+
+                            </section>
+
+                            <!-- BLOQUE DE OPINIONES  -->
+
+                            <h3 style="color:#8e4876">Opiniones</h3>
+
+                            <hr style="border: 1px solid #79FF39">
+
+                            <div class="row opiniones">
+
+                                <div class="col-3 col-sm-4 col-lg-2 p-2">
+
+                                    <img src="img/user01.jpg" alt="usuario" class="img-thumbnail">
+
+                                </div>
+
+                                <div class="col-9 col-sm-8 col-lg-10 p-2 text-muted">
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quidem iste minima perspiciatis corrupti
+                                       provident libero quaerat at debitis itaque veniam beatae, corporis rerum fuga. 
+                                       Atque aperiam hic non autem.</p>
+
+                                    <span class="small float-right">Carla Gómez | 20.09.2018</span>
+
+                                </div>
+
+                                <div class="col-9 col-sm-8 col-lg-10 p-2 text-muted">
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quidem iste minima perspiciatis corrupti
+                                        provident libero quaerat at debitis itaque veniam beatae, corporis rerum fuga. 
+                                        Atque aperiam hic non autem.</p>
+
+                                    <span class="small float-right">Juanito Travel | 20.09.2018</span>
+
+                                </div>
+
+                                <div class="col-3 col-sm-4 col-lg-2 p-2">
+
+                                    <img src="img/user02.jpg" alt="usuario" class="img-thumbnail">
+
+                                </div>
+
+                            </div>
+
+                            <hr style="border: 1px solid #79FF39">
+
+                            <!-- FORMULARIO DE OPINIONES -->
+
+                            <form>
+
+                                <label class="text-muted lead">¿Qué tal te pareció el artículo?</label>
+
+                                <div class="row">
+
+                                    <div class="col-12 col-md-8 col-lg-9">
+
+                                        <div class="input-group-lg">
+
+                                            <input type="text" class="form-control my-3" placeholder="Tu nombre" />
+
+                                            <input type="email" class="form-control my-3" placeholder="Tu email" />
+                                            
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-none d-md-block col-md-4 col-lg-3">
+
+                                        <img src="img/subirFoto.png" class="img-fluid mt-md-3 mt-xl-2" alt="subirfoto">
+
+                                    </div>
+
+                                </div>
+
+                                <textarea class="form-control my-3" rows="7" placeholder="Escribe aquí tu mensaje"></textarea>
+
+                                <input type="submit" class="btn btn-dark btn-lg btn-block" value="Enviar">
+
+                            </form>
 
                     </div>
 
@@ -585,28 +651,28 @@
                     <!-- PUBLICIDAD -->
 
                     <div class="mb-4">
-                        <img src="../img/ad03.png" class="img-fluid">
+                        <img src="img/ad03.png" class="img-fluid">
                     </div>
 
                     <!-- COMENTARIOS RECIENTES -->
 
                     <div class="my-4">
 
-                        <h4>Artículos destacados</h4>
+                        <h4>Artículos relacionados</h4>
 
                         <div class="d-flex my-3">
 
                             <div class="w-100 w-xl-75 pr-3 pt-2">
                                 <a href="articulos.html">
 
-                                    <img src="../img/com01.jpg" alt="comentario imagen" class="img-fluid">
+                                    <img src="img/com01.jpg" alt="comentario imagen" class="img-fluid">
 
                                 </a>
                             </div>
 
                             <div>
                                 <a href="articulos.html" class="text-secondary">
-                                    
+
                                     <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum</p>
 
                                 </a>
@@ -619,14 +685,14 @@
                             <div class="w-100 w-xl-75 pr-3 pt-2">
                                 <a href="articulos.html">
 
-                                    <img src="../img/com02.jpg" alt="comentario imagen" class="img-fluid">
+                                    <img src="img/com02.jpg" alt="comentario imagen" class="img-fluid">
 
                                 </a>
                             </div>
 
                             <div>
                                 <a href="articulos.html" class="text-secondary">
-                                    
+
                                     <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum</p>
 
                                 </a>
@@ -639,14 +705,14 @@
                             <div class="w-100 w-xl-75 pr-3 pt-2">
                                 <a href="articulos.html">
 
-                                    <img src="../img/com03.jpg" alt="comentario imagen" class="img-fluid">
+                                    <img src="img/com03.jpg" alt="comentario imagen" class="img-fluid">
 
                                 </a>
                             </div>
 
                             <div>
                                 <a href="articulos.html" class="text-secondary">
-                                    
+
                                     <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum</p>
 
                                 </a>
@@ -658,14 +724,14 @@
 
                     <div class="ads my-4">
 
-                        <img src="../img/ad02.jpg" class="img-fluid">
-    
+                        <img src="img/ad02.jpg" class="img-fluid">
+
                     </div>
-    
+
                     <div class="ads my-4">
-    
-                        <img src="../img/ad05.png" class="img-fluid">
-    
+
+                        <img src="img/ad05.png" class="img-fluid">
+
                     </div>
 
                 </div>
@@ -693,55 +759,55 @@
                     <div class="p-1 bg-white gridfooter">
 
                         <div class="container p-0">
-                
+
                             <div class="d-flex">
-                
+
                                 <div class="d-flex flex-column columna1">
-                
+
                                     <figure class="p-2 m-0 photo1" vinculo="categorias.html">
-                
+
                                         <p class="text-uppercase p-1 p-md-2 p-xl-1 small">Suramérica</p>
-                
+
                                     </figure>
-                
+
                                     <figure class="p-2 m-0 photo2" vinculo="categorias.html">
-                
+
                                         <p class="text-uppercase p-1 p-md-2 p-xl-1 small">África</p>
-                
+
                                     </figure>
-                
+
                                 </div>
-                
+
                                 <div class="d-flex flex-column flex-fill columna2">
-                
+
                                     <div class="d-block d-md-flex">
-                
+
                                         <figure class="p-2 m-0 flex-fill photo3" vinculo="categorias.html">
-                
+
                                             <p class="text-uppercase p-1 p-md-2 p-xl-1 small">Centroamérica</p>
-                
+
                                         </figure>
-                
+
                                         <figure class="p-2 m-0 flex-fill photo4" vinculo="categorias.html">
-                
+
                                             <p class="text-uppercase p-1 p-md-2 p-xl-1 small">Europa</p>
-                
+
                                         </figure>
-                
+
                                     </div>
-                
+
                                     <figure class="p-2 m-0 photo5" vinculo="categorias.html">
-                
+
                                         <p class="text-uppercase p-1 p-md-2 p-xl-1 small">Norteamérica</p>
-                
+
                                     </figure>
-                
+
                                 </div>
-                
+
                             </div>
-                
+
                         </div>
-                
+
                     </div>
 
                 </div>
@@ -771,39 +837,39 @@
                     <div class="p-0 w-100 pt-2">
 
                         <ul class="d-flex justify-content-left p-0">
-                
+
                             <li>
                                 <a href="https://www.facebook.com" target="_blank">
                                     <i class="fab fa-facebook-f lead text-white mr-3 mr-sm-4"></i>
                                 </a>
                             </li>
-                
+
                             <li>
                                 <a href="https://www.instagram.com/" target="_blank">
                                     <i class="fab fa-instagram lead text-white mr-3 mr-sm-4"></i>
                                 </a>
                             </li>
-                
+
                             <li>
                                 <a href="https://www.twitter.com/" target="_blank">
                                     <i class="fab fa-twitter lead text-white mr-3 mr-sm-4"></i>
                                 </a>
                             </li>
-                
+
                             <li>
                                 <a href="https://www.youtube.com/" target="_blank">
                                     <i class="fab fa-youtube lead text-white mr-3 mr-sm-4"></i>
                                 </a>
                             </li>
-                
+
                             <li>
                                 <a href="https://www.snapchat.com/" target="_blank">
                                     <i class="fab fa-snapchat-ghost lead text-white mr-3 mr-sm-4"></i>
                                 </a>
                             </li>
-                
+
                         </ul>
-                
+
                     </div>
 
                 </div>
@@ -814,7 +880,7 @@
 
     </footer>
 
-    <script src="../js/script.js"></script>
+    <script src="js/script.min.js"></script>
 </body>
 
 </html>
